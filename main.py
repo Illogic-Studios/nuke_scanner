@@ -1,7 +1,6 @@
 import importlib
-from common import utils
 
-utils.unload_packages(silent=True, package="nuke_scanner")
-importlib.import_module("nuke_scanner")
-from nuke_scanner.NukeScanner import NukeScanner
-NukeScanner().run()
+import nuke_scanner.nuke_scanner as nuke_scanner
+importlib.reload(nuke_scanner)
+
+nuke_scanner.NukeScanner().run()
