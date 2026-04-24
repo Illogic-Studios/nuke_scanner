@@ -8,7 +8,7 @@
 - [Prism folder structure](#prism-folder-structure)
 - [Features](#features)
   - [Select unconnected nodes - `select_unconnected_read.py`](#select-unconnected-read)
-  - [Scan nuke scene and tag renders to delete — `NukeScanner.py`](#nuke-scanner)
+  - [Scan nuke scene and tag renders to delete — `nuke_scanner.py`](#nuke-scanner)
   - [Delete tagged renders — `nuke_delete.py`](#nuke-delete)
 
 ---
